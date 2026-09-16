@@ -1,11 +1,18 @@
 import React from 'react';
-import ButtonTab from './components/ButtonTab';
+// import {MultiCom} from './layout/MultiCom'
+// import {Profile} from './layout/Profile'
+// import { ProductCard } from './layout/ProductCard';
+import Task5Layout from './layout/Task5Layout';
+
+
 
 const App = () => {
   return (
     <div>
-      <h2>Welcome to my App</h2>
-      <ButtonTab/>
+      <Task5Layout/>
+      {/* <MultiCom/>
+      <Profile/>
+      <ProductCard/> */}
     </div>
   );
 };

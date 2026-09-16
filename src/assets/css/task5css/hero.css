@@ -1,0 +1,9 @@
+.hero-container{
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+}
+.hero-title{
+    padding-top: 35px;
+}

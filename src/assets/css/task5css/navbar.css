@@ -1,0 +1,23 @@
+.align-center{
+    text-align: center;
+}
+.header-logo{
+    border-bottom: 1px solid #222222;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    padding: 0px 35px;
+    margin-right: 20px;
+}
+.nav-item:not(:first-child) {
+    border-left: 1px solid #181818; /* Adds a border to the left of Products and Contact */
+}
